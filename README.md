@@ -1,14 +1,13 @@
-# ETCExplorer
+# TAO Explorer1
 
-<b>Live Version: [etherhub.io](http://etherhub.io)</b>
+<b>Live Version: [explorer.tao.ac](https://explorer.tao.ac)</b>
 
-Follow the project progress at: [ETC Block Explorer Development](https://github.com/ethereumproject/explorer)
 
 ## Local installation
 
 Clone the repo
 
-`git clone https://github.com/ethereumproject/explorer`
+`git clone https://github.com/tao-foundation/explorer1`
 
 Download [Nodejs and npm](https://docs.npmjs.com/getting-started/installing-node "Nodejs install") if you don't have them
 
@@ -42,10 +41,11 @@ Basic settings:
     "patch":        true,
     "patchBlocks":  100,
     "settings": {
-        "symbol": "ETC",
-        "name": "Ethereum Classic",
-        "title": "Ethereum Classic Block Explorer",
-        "author": "Elaine"
+        "symbol": "TEO",
+        "name": "TEO (TrustEthreOrigin)",
+        "title": "TEO (TestNet) Block Explorer",
+        "author": "Trustfarm, Elaine, Cody, Hackmod, Bakon",
+        "contact": "mailto:admin@tao.foundation",
     }
 }
 
