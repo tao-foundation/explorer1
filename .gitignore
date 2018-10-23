@@ -38,7 +38,7 @@ jspm_packages
 
 # local data
 data/
-package-lock.json
+# package-lock.json
 public/js/stats/The_bomb_chart.js
 config.json
 .node-xmlhttprequest-*
