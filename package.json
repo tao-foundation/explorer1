@@ -6,7 +6,9 @@
   "repository": "https://github.com/ethereumproject/explorer",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"node tools/sync.js \" \"node app.js\" ",
+    "start": "concurrently \"node tools/sync.js \" ",
+    "web": "concurrently \"node app.js\" ",
+    "stats": "concurrently \"node tools/stats.js\" ",
     "pretest": "copyfiles app.js app/  ",
     "test": "./node_modules/.bin/mocha --reporter spec  "
   },
