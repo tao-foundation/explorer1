@@ -9,7 +9,7 @@
     "patchBlocks":  100,
     "bulkSize":     100,
     "settings": {
-        "symbol": "TEOt",
+        "symbol": "TEO",
         "name": "TEO (TrustEthreOrigin)",
         "title": "TEO (TestNet) Block Explorer",
         "author": "Trustfarm, Elaine, Cody, Hackmod, Bakon",
