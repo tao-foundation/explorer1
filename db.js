@@ -45,6 +45,7 @@ var Transaction = new Schema(
     "transactionIndex": Number,
     "from": String,
     "to": String,
+    "creates": String,
     "value": String,
     "gas": Number,
     "gasPrice": String,
@@ -78,6 +79,7 @@ var connectOptions = {
 Transaction.index({blockNumber:-1});
 Transaction.index({from:1, blockNumber:-1});
 Transaction.index({to:1, blockNumber:-1});
+Transaction.index({creates:1, blockNumber:-1});
 Block.index({miner:1});
 
 mongoose.model('BlockStat', BlockStat);
