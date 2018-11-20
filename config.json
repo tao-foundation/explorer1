@@ -11,8 +11,8 @@
     "settings": {
         "symbol": "TEO",
         "name": "TEO (TrustEthreOrigin)",
-        "title": "TEO (TestNet) Block Explorer",
-        "author": "Trustfarm, Elaine, Cody, Hackmod, Bakon",
+        "title": "TEO Block Explorer",
+        "author": "trustfarm, Elaine, Cody, Hackmod, Bakon",
         "contact": "mailto:admin@tao.foundation",
         "about": "This is an open source TEO Blockchain Explorer.",
         "rss": "https://forum.tao.foundation",
