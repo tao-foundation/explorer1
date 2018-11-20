@@ -1,6 +1,8 @@
 # TEO Explorer1
 
-<b>Live Version: [explorer.tao.ac](https://explorer.tao.foundation)</b>
+<b>Live Version of This Explorer #1: [explorer.tao.foundation](https://explorer.tao.foundation)</b>
+<b>Alternate Explorer #2 lightexp  : [explorer2.tao.foundation](https://explorer2.tao.foundation)</b>
+<b>Lite Version Testnet            : [explorer.tao.ac](https://explorer.tao.ac)</b>
 
 
 ## Local installation
