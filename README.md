@@ -1,6 +1,6 @@
-# TAO Explorer1
+# TEO Explorer1
 
-<b>Live Version: [explorer.tao.ac](https://explorer.tao.ac)</b>
+<b>Live Version: [explorer.tao.ac](https://explorer.tao.foundation)</b>
 
 
 ## Local installation
@@ -43,8 +43,8 @@ Basic settings:
     "settings": {
         "symbol": "TEO",
         "name": "TEO (TrustEthreOrigin)",
-        "title": "TEO (TestNet) Block Explorer",
-        "author": "Trustfarm, Elaine, Cody, Hackmod, Bakon",
+        "title": "TEO Block Explorer",
+        "author": "trustfarm, Elaine, Cody, Hackmod, Bakon",
         "contact": "mailto:admin@tao.foundation",
     }
 }
