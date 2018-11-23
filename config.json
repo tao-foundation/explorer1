@@ -11,6 +11,15 @@
     "settings": {
         "symbol": "TEO",
         "name": "TEO (TrustEthreOrigin)",
+<<<<<<< HEAD
+        "title": "TEO Mainnet Explorer",
+        "author": "Trustfarm",
+        "contact": "mailto:admin@tao.foundation",
+        "about": "This is an open source TEO Blockchain Explorer.",
+        "rss": "https://forum.tao.foundation",
+        "reddit": "https://www.reddit.com/user/trustfarmhub",
+        "twitter": "https://twitter.com/taofoundation",
+=======
         "title": "TEO Block Explorer",
         "author": "trustfarm, Elaine, Cody, Hackmod, Bakon",
         "contact": "mailto:admin@tao.foundation",
@@ -18,6 +27,7 @@
         "rss": "https://forum.tao.foundation",
         "reddit": "https://www.reddit.com/r/taofoundation",
         "twitter": "https://twitter.com/ioetao",
+>>>>>>> 2bc4824d188571e449e0ed859d2ef2e970efb3f4
         "github": "https://github.com/tao-foundation",
         "logo": "/img/explorer-logo.png",
         "customCss": "green-haze.min.css",
@@ -27,6 +37,9 @@
         "poweredbyEtcImage": "/img/powered-by-etcexplorer-w.png",
         "poweredbyEtc": false,
         "tokenList": "tokens.json",
-        "miners": {}
+        "miners": {
+		"0x33fb19318ba4bdc22e0ede206cc8dee5d4dd53cd": "TeoPool1" ,
+		"0x639b1016f27d7b36b1d113233c4566414ebe6461": "TeoPool2" 
+	}
     }
 }
