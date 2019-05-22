@@ -168,14 +168,19 @@ var getTotalSupply = function(req, res) {
       var blocks = [];
 
       var rewards = {
-        enableECIP1017: true,
+        enableECIP1017: false,
         estimateUncle: 0.054, /* true: aggregate db // number(fractioal value): uncle rate // false: disable */
-        genesisAlloc: 72009990.50,
+        genesisAlloc: 88888888.00,
         blocks: [
-          /* will be regeneragted later for ECIP1017 enabled case */
+          /* 
+          /* TEO Supply Limitation Schema , After 45000000 BLK, Realistic NO Rewards to miner, 
+             Just for Maintenance */
           { start:        1, reward: 5e+18, uncle: 0.90625 },
-          { start:  5000001, reward: 4e+18, uncle:  0.0625 },
-          { start: 10000001, reward: 4e+18, uncle:  0.0625 },
+          { start:  5000000, reward: 4e+18, uncle: 0.0625 },
+          { start: 15000000, reward: 3e+18, uncle: 0.0425 },
+          { start: 25000000, reward: 2e+18, uncle: 0.0325 },
+          { start: 35000000, reward: 1e+18, uncle: 0.0225 },
+          { start: 45000000, reward: 1e+15, uncle: 0.01 },
         ]
       };
 
