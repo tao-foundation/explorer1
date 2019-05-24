@@ -244,7 +244,7 @@ var getTotalSupply = function(req, res) {
       var totalSupply = total.plus(genesisAlloc);
       // reservedFunds = 75358886.98;
       // circulatingSupply = totalSupply - reservedFunds;
-      var circulatingSupply = totalSupply.minus(75358886.98e+18);
+      var circulatingSupply = totalSupply.minus(76208329.15e+18);
 
       var ret = { "height": blockNumber, "circulatingSupply": circulatingSupply.div(1e+18),  "totalSupply": totalSupply.div(1e+18), "genesisAlloc": genesisAlloc.div(1e+18), "minerRewards": total.div(1e+18) };
       if (req.method === 'POST' && typeof rewards.genesisAlloc === 'object') {
