@@ -23,6 +23,8 @@ MacOS: `brew install mongodb`
 
 Ubuntu: `sudo apt-get install -y mongodb-org`
 
+Install mongodb-org refer here : https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
 ## Populate the DB
 
 This will fetch and parse the entire blockchain.
