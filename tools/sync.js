@@ -59,7 +59,7 @@ function normalizeTX(txData, blockData) {
 var listenBlocks = function(config) {
   if (web3.eth.syncing) {
     console.log('Info: waiting until syncing finished... (currentBlock is #' + web3.eth.syncing.currentBlock + ')');
-    setTimeout(function() { listenBlocks(config); }, 10000);
+    setTimeout(function() { listenBlocks(config); }, 60000);
     return;
   }
     var newBlocks = web3.eth.filter("latest");
@@ -95,7 +95,7 @@ var syncChain = function(config, nextBlock){
   if(web3.isConnected()) {
     if (web3.eth.syncing) {
       console.log('Info: waiting until syncing finished... (currentBlock is #' + web3.eth.syncing.currentBlock + ')');
-      setTimeout(function() { syncChain(config, nextBlock); }, 10000);
+      setTimeout(function() { syncChain(config, nextBlock); }, 60000);
       return;
     }
 
@@ -137,7 +137,7 @@ var syncChain = function(config, nextBlock){
       count--;
     }
 
-    setTimeout(function() { syncChain(config, nextBlock); }, 500);
+    setTimeout(function() { syncChain(config, nextBlock); }, 1000);
   }else{
     console.log('Error: Web3 connection time out trying to get block ' + nextBlock + ' retrying connection now');
     syncChain(config, nextBlock);
@@ -454,9 +454,11 @@ var checkBlockDBExistsThenWrite = function(config, patchData, flush) {
 var config = {};
 //Look for config.json file if not
 try {
-    var configContents = fs.readFileSync('config.json');
+    var configFilename = process.argv[2]?  process.argv[2]: 'config.json';
+    // var configContents = fs.readFileSync('config.json');
+    var configContents = fs.readFileSync(configFilename);
     config = JSON.parse(configContents);
-    console.log('config.json found.');
+    console.log( configFilename + ' found.');
 }
 catch (error) {
   if (error.code === 'ENOENT') {
