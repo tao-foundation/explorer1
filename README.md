@@ -2,7 +2,6 @@
 
 <b>Live Version of This Explorer #1: [explorer.tao.foundation](https://explorer.tao.foundation)</b> <br>
 <b>Alternate Explorer #2 lightexp  : [explorer2.tao.foundation](https://explorer2.tao.foundation)</b> <br>
-<b>Lite Version Testnet            : [explorer.tao.ac](https://explorer.tao.ac)</b> <br>
 
 
 ## Local installation
