@@ -20,7 +20,7 @@
     "ejs": "~2.5.7",
     "express": "^4.16.0",
     "lodash": "^4.17.10",
-    "mongoose": "^4.10.8",
+    "mongoose": "^5.7.7",
     "morgan": "^1.9.0",
     "rlp": "^2.0.0",
     "serve-favicon": "~2.4.5",
